@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Formulários</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Itim&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Aprendendo formulários</h1>
+
+        <h2>Área de cadastro</h2>
+        <form action="paginas/login.html" method="POST">
+
+            Nome: <input type="text" name="nome" />
+            <br/>
+            <br/>
+            E-mail: <input type="email" name="email" />
+            <br/>
+            <br/>
+            Senha: <input type="password" name="senha" />
+            <br/>
+            <br/>
+            Data de Nascimento: <input type="date" name="nascimento" />
+            <br/>
+            <br/>
+            Sexo: <select name="sexo">
+                <option></option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="secreto">Prefiro não identificar</option>
+            </select>
+            <br/>
+            <br/>
+            Cor do avatar: <input type="color" name="cor" />
+            <br/>
+            <br/>
+            Concordo com as diretrizes: <input type="checkbox" name="diretrizes" />
+            <br/>
+            <br/>
+            <input type="submit" value="Fazer cadastro" />
+
+        </form>
+
+    </body>
+</html>

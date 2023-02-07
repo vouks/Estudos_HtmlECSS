@@ -1,0 +1,57 @@
+/* Formatações gerais da página */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 50px;
+    font-size: 17px;
+    background-color: rgb(171, 247, 171);
+}
+
+h1, h2{
+    font-family: 'Merriweather', serif;
+}
+
+/* Formatações referentes a tabela */
+table{
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+th, td{
+    border: 2px solid black;
+}
+
+tbody td:hover{
+    background-color: blue;
+}
+
+tbody tr:nth-child(even){
+    background-color: lightcoral;
+}
+
+thead{
+background-color: black;
+}
+
+tbody{
+background-color: red;
+}
+
+.tabela1{
+    margin: 10px;
+    padding: 10px;
+    margin-left: 600px;
+}
+
+/* Formatações referentes ao formulário */
+
+form{
+    background-color: rgb(224, 221, 221);
+    margin: 10px;
+    margin-right: 1500px;
+    padding: 10px;
+}
